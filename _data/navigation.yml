@@ -1,3 +1,5 @@
 main:
   - title: "Personal"
     url: /personal/
+  - title: "Arts"
+    url: /arts/

@@ -34,3 +34,4 @@ gem "github-pages", "~> 228", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 gem "webrick", "~> 1.8"
 gem "jekyll-remote-theme"
+gem 'bootstrap', '~> 4.0.0'

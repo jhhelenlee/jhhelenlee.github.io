@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Personal
+title: Arts
 ---
 
 This is some sample text.
