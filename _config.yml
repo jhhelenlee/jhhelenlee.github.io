@@ -27,6 +27,9 @@ url: "https://jhhelenlee.github.io" # the base hostname & protocol for your site
 github_username:  jhhelenlee
 paginate_path: /page:num
 
+image_div_one: '<div class="row"><div class="col"></div><div class="col-lg-7 col-md-8 col-sm-9 col-12"><img src="'
+image_div_two: '" style="object-fit: cover; max-height: 100%; max-width: 100%; padding-bottom: 16px;"/></div><div class="col"></div></div>'
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
