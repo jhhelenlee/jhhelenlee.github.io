@@ -3,13 +3,7 @@ title:  NYC Ballet 2023-10-12
 categories: arts ballet nycballet
 filepath: assets/images/2023-10-12-nyc-ballet
 ---
-{% assign image_containers = "" | split: "," %}
-{% for image in site.static_files %}
-    {% if image.path contains page.filepath %}
-        {% assign image_container = site.image_div_one | append: image.path | append: site.image_div_two %}
-        {% assign image_containers = image_containers | push: image_container %}
-    {% endif %}
-{% endfor %}
+{% include image-gen.html %}
 
 {{ image_containers[0] }}
 
